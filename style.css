@@ -1,0 +1,236 @@
+@import url('https://fonts.cdnfonts.com/css/bahnschrift');
+
+body
+{
+  background-color: #03224b;
+  color: #ffff;
+  margin: 0px;
+  font-family: Bahnschrift;
+}
+
+.wrapper
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.page
+{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.menu
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 42pt;
+  height: 50pt;
+}
+
+.menu *
+{
+  height: 42pt;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.menu .left-side
+{
+  width: 500px;
+  display: flex;
+  gap: 10px;
+}
+
+.menu-image
+{
+  margin-left: 5px;
+}
+
+.head-image
+{
+  position: relative;
+
+}
+
+.head-content
+{
+  margin-top: -900px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.renault-text
+{
+  background-color: #03224b;
+  padding: 5px;
+  font-family: Bahnschrift;
+  font-size: 100pt;
+}
+
+.buy-button
+{
+  background-color: #03224b;
+  padding: 20px;
+  border-radius: 50px;
+  font-family: Bahnschrift;
+  font-size: 42pt;
+}
+
+
+.page2
+{
+  padding-top: 40px;
+}
+
+.page2 p
+{
+  font-size: 25pt;
+  padding: 15px;
+}
+
+.page2 h2 
+{
+  text-align: center;
+  font-size:90pt;
+}
+
+.page2 h3
+{
+  font-size: 48pt;
+  text-align: center;
+}
+
+.footer-text
+{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.footer-text img
+{
+  width: 100%;
+}
+
+.galery
+{
+  display: flex;
+  overflow-y: scroll;
+  gap: 0px 10px;
+}
+
+.galery img
+{
+  height: 460px;
+}
+
+.extended img
+{
+  display: flex;
+  width: 100%;
+}
+
+.extended h1
+{
+  text-align: center;
+  font-size: 90pt;
+}
+
+.extended h2
+{
+  text-align: center;
+  font-size: 40pt;
+  cursor: pointer;
+  user-select: none;
+}
+
+.extended p
+{
+  font-size: 25pt;
+  padding: 15px;
+}
+
+.page3 h2 .page4 h2
+{
+  text-align: center;
+  font-size: 90pt;
+}
+
+.page3 p
+{
+  font-size: 25pt;
+  padding: 15px;
+}
+
+.page4 h2
+ {
+  text-align: center;
+  font-size: 90pt;
+ }
+
+.page4 p {
+  font-size: 25pt;
+  padding: 15px;
+}
+
+.faq
+{
+  min-height: 500px;
+  background-color: #fad066;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-card
+{
+  font-size: 25pt;
+  background-color: white;
+  color: black;
+  width: 800px;
+  padding: 5px;
+  display: flex;
+}
+
+.faq-plus
+{
+  color: gray;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.video-place h2
+{
+  text-align: center;
+  font-size: 70pt;
+}
+
+.video-place p
+{
+  font-size: 25pt;
+  margin: 10px;
+  margin-top: 0px;
+}
+
+.video-place
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(157deg,  #03224b 50%, #fad066 50%);
+}
+
+.video-frame
+{
+  width: 1200px;
+  height: 800px;
+  margin-bottom: 60px;
+}
