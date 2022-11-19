@@ -250,12 +250,12 @@ p {
 
 .page4 .driver-slider-mobile {
   display: none;
-  background-color: red;
 }
 
 @media only screen and (max-width: 750px) {
   .page4 .driver-slider-mobile {
     display: block;
+    position: relative;
   }
 
   .page4 .driver-slider {
@@ -309,6 +309,7 @@ p {
   padding: 5px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .faq-body {
@@ -326,4 +327,17 @@ p {
 
 .faq-questions {
   color: gray;
+  display: none;
+}
+
+.faq-questions .faq-question {
+  font-size: small;
+}
+
+/* FAQ Moobile */
+@media only screen and (max-width: 750px) {
+  .faq-card {
+    width: 340px;
+
+  }
 }

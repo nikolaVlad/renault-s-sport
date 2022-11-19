@@ -23,15 +23,21 @@ function scrollCars(step)
       `
 }
 
-function scrollDriver( src) 
+
+function scrollItem(el , src)
 {
-  const driverImg = document.getElementById('driver-img');
-  return driverImg.setAttribute('src',src)
+  document.getElementById(el).setAttribute('src' , src)
 }
 
-function scrollCard(src)
-{
-  const cardImg = document.getElementById('card-img');
-  return cardImg.setAttribute('src',src)
-}
 
+
+function openFaq(index)
+{
+  const elements = document.getElementsByClassName('faq-questions')
+  for(let i = 0; i< elements.length;i++)
+  {
+    elements[i].style.display = 'none'
+  }
+  elements.item(index).style.display = 'flex'
+  
+}

@@ -153,16 +153,19 @@
 
     <div class="driver-slider">
       <img id="driver-img" class="img-fluid" src="imgs/Driver Profile.png" />
-      <div onclick="scrollDriver('imgs/Driver Profile.png')" class="carousel-control-prev-icon" id="left-arrow"></div>
-      <div onclick="scrollDriver('imgs/Car Profile.png')" class="carousel-control-next-icon" id="right-arrow"></div>
+      <div onclick="scrollItem('driver-img', 'imgs/Driver Profile.png')" class="carousel-control-prev-icon"
+        id="left-arrow"></div>
+      <div onclick="scrollItem('driver-img', 'imgs/Car Profile.png')" class="carousel-control-next-icon"
+        id="right-arrow"></div>
     </div>
 
     <div class="driver-slider-mobile">
-      <div onclick="scrollDriver('Driver Profile Phone Version.png.png')" class="carousel-control-prev-icon"
-        id="left-arrow"></div>
-      <div onclick="scrollDriver('Car Profile Phone Version.png')" class="carousel-control-next-icon" id="right-arrow">
+      <div onclick="scrollItem('driver-img-moobile', 'imgs/Driver Profile Phone Version.png')"
+        class="carousel-control-prev-icon" id="left-arrow"></div>
+      <div onclick="scrollItem('driver-img-moobile', 'imgs/Car Profile Phone Version.png')"
+        class="carousel-control-next-icon" id="right-arrow">
       </div>
-      <img id="driver-img" class="img-fluid" src="imgs/Driver Profile Phone Version.png" />
+      <img id="driver-img-moobile" class="img-fluid" src="imgs/Driver Profile Phone Version.png" />
     </div>
   </div>
 
@@ -201,16 +204,18 @@
 
     <div class="cards-slider">
       <img id="card-img" class="img-fluid" src="imgs/Cards.png" />
-      <div onclick="scrollCard('imgs/Cards.png')" class="carousel-control-prev-icon" id="left-arrow"></div>
-      <div onclick="scrollCard('imgs/Drivers Standings.png')" class="carousel-control-next-icon" id="right-arrow"></div>
+      <div onclick="scrollItem('card-img', 'imgs/Cards.png')" class="carousel-control-prev-icon" id="left-arrow"></div>
+      <div onclick="scrollItem('card-img', 'imgs/Drivers Standings.png')" class="carousel-control-next-icon"
+        id="right-arrow"></div>
     </div>
 
     <div class="cards-slider-mobile">
-      <img id="card-img" class="img-fluid" src="imgs/Cards Phone Version.png" />
-      <div onclick="scrollCard('imgs/Cards Phone Version.png')" class="carousel-control-prev-icon" id="left-arrow">
+      <img id="card-img-mobile" class="img-fluid" src="imgs/Cards Phone Version.png" />
+      <div onclick="scrollItem('card-img-mobile', 'imgs/Cards Phone Version.png')" class="carousel-control-prev-icon"
+        id="left-arrow">
       </div>
-      <div onclick="scrollCard('imgs/Driver Standings Phone Version.png')" class="carousel-control-next-icon"
-        id="right-arrow"></div>
+      <div onclick="scrollItem('card-img-mobile', 'imgs/Driver Standings Phone Version.png')"
+        class="carousel-control-next-icon" id="right-arrow"></div>
 
     </div>
 
@@ -223,19 +228,106 @@
 
 
     <div class="faq">
+
       <div class="faq-card">
         <div class="faq-body">
-          <h2> Lorem ipsum dolor sit amet, consectetur adipisicing? </h2>
-          <div class="faq-plus">
+          <h2> WHAT IS THE RENAULT 5 SPORT ?
+          </h2>
+          <div class="faq-plus" onclick="openFaq(0)">
             <h2> + </h2>
           </div>
         </div>
 
         <div class="faq-questions">
-          <div class="faq-question"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repudiandae magni alias
-            in eum porro veritatis quia nobis magnam? Hic sequi molestiae reiciendis esse repudiandae aliquid, quos
-            dolore
-            quo aliquam?1</div>
+          <div class="faq-question">
+            Test pitanja 1
+          </div>
+          <div class="faq-question">
+            Test pitanja 2
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-card">
+        <div class="faq-body">
+          <h2> HOW TO BUY (MINT) A RENAULT 5 SPORT NFT?
+          </h2>
+          <div class="faq-plus" onclick="openFaq(1)">
+            <h2> + </h2>
+          </div>
+        </div>
+
+        <div class="faq-questions">
+          <div class="faq-question">
+            Test pitanja 3
+          </div>
+          <div class="faq-question">
+            Test pitanja 4
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-card">
+        <div class="faq-body">
+          <h2> HOW MUCH IS A RENAULT 5 SPORT NFT?
+          </h2>
+          <div class="faq-plus" onclick="openFaq(2)">
+            <h2> + </h2>
+          </div>
+        </div>
+
+        <div class="faq-questions">
+          <div class="faq-question">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-card">
+        <div class="faq-body">
+          <h2> WHAT CAN I DO WITH MY RENAULT 5 SPORT NFT?
+          </h2>
+          <div class="faq-plus" onclick="openFaq(3)">
+            <h2> + </h2>
+          </div>
+        </div>
+
+        <div class="faq-questions">
+          <div class="faq-question">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-card">
+        <div class="faq-body">
+          <h2> DO I OWN THE RENAULT 5 SPORT AFTER MINTING IT ?
+          </h2>
+          <div class="faq-plus" onclick="openFaq(4)">
+            <h2> + </h2>
+          </div>
+        </div>
+
+        <div class="faq-questions">
+          <div class="faq-question">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-card">
+        <div class="faq-body">
+          <h2> WHERE CAN I VIEW MY RENALITE SPORT NETs ?
+          </h2>
+          <div class="faq-plus" onclick="openFaq(5)">
+            <h2> + </h2>
+          </div>
+        </div>
+
+        <div class="faq-questions">
+          <div class="faq-question">
+
+          </div>
         </div>
       </div>
     </div>
